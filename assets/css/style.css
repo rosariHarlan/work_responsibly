@@ -1,0 +1,216 @@
+/* ---------- General Styling ---------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #ccc;
+}
+
+h3 {
+  color: #333;
+  font-size: 2em;
+}
+
+p,
+span {
+  color: #333;
+}
+
+/* ---------- Nav bar ---------- */
+
+nav li {
+  display: inline;
+  position: relative;
+  top: 2em;
+  left: 7em;
+  padding-right: 1em;
+}
+
+nav li a {
+  list-style: none;
+  color: #659d89;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #333;
+}
+
+/* ---------- First Section ---------- */
+
+#section-1 {
+  position: relative;
+  height: 95vh;
+  top: 7em;
+  left: 7em;
+}
+
+#section-1 h1 {
+  color: #659d89;
+  font-size: 3em;
+}
+
+#section-1 h2 {
+  color: #000;
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+#section-1 p {
+  position: relative;
+  top: 10em;
+}
+
+#section-1 a {
+  color: #333;
+}
+
+#section-1 .fa-arrow-down {
+  padding-right: 0.5em;
+}
+
+#section-1 a:hover {
+  color: #659d89;
+}
+
+/* ---------- Social Media ---------- */
+
+#social-media li {
+  list-style: none;
+  padding-top: 0.5em;
+}
+
+#social-media img {
+  width: 20px;
+  height: 20px;
+}
+
+#social-media {
+  position: relative;
+  left: 70rem;
+  top: 5rem;
+}
+
+/* ----------- Second Section ---------- */
+
+#section-2 {
+  position: relative;
+  height: 130vh;
+  top: 5em;
+  left: 7em;
+}
+
+#section-2 h3 {
+  padding-bottom: 1em;
+}
+
+#section-2 p {
+  color: #333;
+  padding-bottom: 5em;
+}
+
+#image-struggle img {
+  padding-right: 1em;
+  padding-bottom: 5em;
+  margin-left: 5em;
+}
+
+/* ---------- Third Section ---------- */
+
+#section-3 {
+  position: relative;
+  height: 100vh;
+  top: 5em;
+  left: 7em;
+}
+
+#section-3 h3 {
+  padding-bottom: 3em;
+}
+
+#section-3 img {
+  width: 600px;
+  height: 350px;
+}
+
+.caption {
+  color: #666;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 0.7em;
+}
+.left-images {
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+}
+
+.left-caption {
+  text-align: center;
+  margin-right: 45em;
+}
+
+.left-caption p,
+.right-caption p {
+  padding-bottom: 0.9em;
+}
+
+.left-caption span,
+.right-caption span {
+  font-size: 0.7em;
+}
+
+.right-images {
+  margin-left: 32rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.right-caption {
+  text-align: center;
+  margin-right: 17em;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  position: relative;
+  top: 100rem;
+  text-align: center;
+}
+
+footer h3 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+footer h3 a {
+  color: #333;
+}
+
+footer .fa-arrow-up {
+  padding-right: 0.2em;
+}
+
+footer h3 a:hover {
+  color: #659d89;
+}
+
+footer span {
+  padding-bottom: 2em;
+}
